@@ -1,0 +1,20 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		// Declaracion de Variables
+		string nombre,ciudad;
+		
+		// Asignacion de Valores
+		Console.WriteLine("Ingresa tu nombre: ");
+		nombre = Console.ReadLine();
+		
+		Console.WriteLine("Ingresa tu ciudad: ");
+		ciudad = Console.ReadLine();
+		
+		Console.WriteLine("Hola " + nombre + "	de "	+ ciudad);
+		
+	}
+}
