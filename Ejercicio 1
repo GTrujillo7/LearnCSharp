@@ -1,0 +1,20 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		// Declaracion de Variables
+		int n1,n2,suma;
+		
+		// Asignacion de Valores
+		n1 = 2;
+		n2 = 3;
+		
+		suma = n1+n2;
+		
+		// Mostrar resultado en consola
+		Console.WriteLine("La Suma es: " + suma);
+		
+	}
+}
