@@ -1,0 +1,24 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		// Declaracion de Variables
+		int n1,n2;
+		
+		// Asignacion de Valores
+		Console.WriteLine("Ingresa el primer numero: ");
+		n1 = Convert.ToInt32(Console.ReadLine());
+		
+		Console.WriteLine("Ingresa el segundo numero: ");
+		n2 = Convert.ToInt32(Console.ReadLine());
+		
+		if (n1 > n2){
+			Console.WriteLine("El Primer numero es mas grande");
+		}else{
+			Console.WriteLine("El segundo numero es mas grande");
+		}
+		
+	}
+}
