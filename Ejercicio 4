@@ -1,0 +1,31 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		// Declaracion de Variables
+		string dia;
+		
+		Console.WriteLine("Ingresa un dia de la semana");
+		dia	= Console.ReadLine();
+		
+		switch(dia.ToLower()){
+			case "lunes":
+            case "martes":
+            case "miercoles":
+            case "jueves":
+            case "viernes":
+                Console.WriteLine ("No es fin de semana");
+                break;
+            case "sabado":
+            case "domingo":
+                Console.WriteLine ("Es fin de semana");
+                break;
+ 
+            default:
+                Console.WriteLine ("Ese dia no es correcto");
+                break;
+            }
+		
+	}
